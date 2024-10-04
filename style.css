@@ -1,4 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 *{
@@ -30,10 +40,287 @@ body{
 
 
 
+
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
+.info{
+    width: 90%;
+    margin: 0 auto;
+    padding: 130px 0px; 
+}
+.course-info{
+    background-color: #9DC9C8;
+}
+.info h2{
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size:4rem; 
+    margin-bottom: 3.2rem;
+}
+.info-main p{
+    margin-bottom: -10px;
+    font-size: 1.7rem; 
+    font-weight: 400;
+}
+.info-main h2{
+    font-size: 4.4rem; 
+    margin-bottom: 55px; 
+    font-weight: 400;
+}
+.advise h3{
+    font-weight: 400;
+    font-size: 1.4rem; 
+    margin-bottom: 15px; 
+}
+.info-foot{
+    display: flex;
+    gap: 70px; 
+}
+.advise p{
+    font-size: 1.2rem; 
+}
+.advise{
+    width: 320px; 
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-info{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 145px;
+}
+#logo{
+    width: 105px; 
+    height: 64px; 
+    margin-bottom: 25px; 
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 19px; 
+}
+.social img{
+    width: 32px; 
+    height: 32px; 
+}
+.phone img{
+    width:25px; 
+    height:25px;
+}
+.email img{
+    width: 25px; 
+    height:17px; 
+}
+.contact{
+    padding-right: 75px; 
+}
+.contact p{
+    font-size: 1.4rem;
+}
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+}
+.phone{
+    margin-bottom: 15px;
+}
+.phone,.email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-foot img{
+    width: 225px;
+    margin-bottom: 20px;
+}
+
+@media (min-width:992px) and (max-width:1279px) {
+    .info{
+        padding-top: 140px;
+    }
+    .info-head h2{
+        font-size: 3.1rem; 
+    }
+    .info-main p{
+        font-size: 1.2rem;
+    }
+    .info-main h2{
+        font-size: 3.2rem; 
+        margin-bottom: 30px; 
+    }
+    .advise{
+        width: 275px;
+    }
+    .advise p{
+        font-size: 1rem;
+    }
+    .advise h3{
+        font-size: 1.2rem;
+    }
+
+    #logo{
+        width: 90px;
+        height: 55px;
+    }
+    .social img{
+        width: 24px;
+        height: 24px;
+    }
+    .phone img{
+        width: 21px;
+        height: 21px;
+    }
+    .email img{
+         width: 21px;
+         height: 14px;
+    }
+    .contact p{
+        font-size: 1.2rem; 
+    }
+    .footer-foot img {
+       width: 190px;
+    }
+    .info-foot{
+        display: flex;
+        gap: 55px; 
+    }
+}
+
+@media (min-width: 320px) and (max-width:991px){
+    .info{
+        padding-top: 70px;
+    }
+    .info-foot{
+        display: flex;
+        gap: 50px; 
+    }
+    .info-head h2{
+        font-size: 3rem; 
+    }
+    .info-main p{
+        font-size: 1.2rem; 
+    }
+    .info-main h2{
+        font-size: 2.9rem; 
+        margin-bottom: 45px;
+    }
+    .advise{
+        width: 245px;
+    }
+    .advise p{
+        font-size: 1.1rem;
+    }
+    .advise h3{
+        font-size: 1.3rem; 
+    }
+    .footer-head{
+        flex-direction: column;
+        gap: 45px;
+    }
+    #logo{
+        width: 69px;
+        height: 39px;
+        margin-bottom: 10px;
+    }
+    .social img{
+        width: 21px;
+        height: 21px;
+    }
+    .phone img{
+        width: 17px;
+        height: 17px;
+    }
+    .email img{
+         width: 17px;
+         height: 13px;
+    }
+    .contact p{
+        font-size: .9rem;
+    }
+    .footer-foot img {
+       width: 150px;
+    }
+    .footer-info{
+        gap: 50px;
+    }
+    .social{
+        gap: 10px; 
+    }
+}
+@media (min-width:402px) and (max-width: 494px){
+    .info-foot{
+        gap: 27px; 
+    }
+    .info-head h2{
+        font-size: 2.7rem; 
+    }
+    .info-main p{
+        font-size: 1.1rem; 
+    }
+    .info-main h2{
+        font-size: 2.5rem; 
+        margin-bottom: 45px;
+    }
+    .advise p{
+        font-size: .9rem;
+    }
+    .advise h3{
+        font-size: 1.1rem; 
+    }
+}
+@media (min-width:320px) and (max-width:402px){
+    .info-foot{
+        gap: 22px; 
+    }
+    .info-head h2{
+        font-size: 2.2rem; 
+    }
+    .info-main p{
+        font-size: .85rem; 
+    }
+    .info-main h2{
+        font-size: 2.2rem; 
+        margin-bottom: 45px;
+    }
+    .advise{
+        width: 245px;
+    }
+    .advise p{
+        font-size: .7rem;
+    }
+    .advise h3{
+        font-size: 1rem; 
+    }
+    
+    .footer-foot img{
+        width: 125px;
+    }
+    .social img{
+        width: 14px;
+        height: 14px;
+    }
+    .phone img{
+        width: 13px;
+        height: 13px;
+    }
+    .email img{
+         width: 13px;
+         height: 10px;
+    }
+    .contact p{
+        font-size: 0.7rem;
+    }
+}
+
 .card{
     background-color: #EFEFEF;
     display: flex;
