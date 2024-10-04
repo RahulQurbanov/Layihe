@@ -8,46 +8,12 @@
 }
 body{
     font-family: "Roboto", sans-serif;
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-*{
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-}
-body{
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body{
-    font-family: "Roboto", sans-serif;
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: "Roboto", sans-serif;
-
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');*{
-    box-sizing: border-box;
-}
-
-body{
-
-
-
-
     width: 100%;
     margin: 0;
     padding: 0;
 }
-
 .info{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     padding: 130px 0px; 
 }
@@ -90,7 +56,7 @@ footer{
     color: white;
 }
 .footer-info{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     padding-top: 45px;
     display: flex;
@@ -328,7 +294,7 @@ footer{
     padding-bottom: 40px;
 }
 .card-info{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 40px;
 }
@@ -477,39 +443,44 @@ footer{
 }
 
 
-.section3{
-    width: 90%;
-    /* text-align: start; */
-    margin: 0 auto;
+.course-program{
+    width: 85%; 
+    text-align: start; 
+     margin: 0 auto;
 }
-.section3 h2{
+.course-program h2{
     font-family: "Roboto Slab", serif;
     margin-left: 30px;
+    margin-bottom: 75px;
 }
-.box{
+.course-boxs{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     padding: 50px 0px;
 }
-.box div{
+.box{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding-bottom: 15px;
+    text-align: start;
+    align-items: flex-start;
+    text-align: start;
 }
 .box p{
     padding-left: 18px;
 }
 .box h3{
-    padding-left: 18px;
+    padding: 10px 0px 20px 18px;
 }
 @media screen and (min-width: 1279px) {
-.box div{
-        width: calc((100% - 70px)/3);
-}
 .box{
+        width: calc((100% - 130px)/3);
+}
+.course-boxs{
     gap: 35px;
 }
 .box img{
@@ -522,15 +493,15 @@ footer{
 .box h3{
     font-size: 25px;
 }
-.section3 h2{
+.course-program h2{
     font-size: 55px;
 }
 }
 @media screen and (min-width:991px) and (max-width: 1279px){
-    .box div{
+    .box{
         width: calc((100% - 60px)/3);
 }
-.box{
+.course-program{
     gap: 30px;
 }
 .box img{
@@ -543,18 +514,18 @@ footer{
 .box h3{
     font-size: 18px;
 }
-.section3 h2{
+.course-program h2{
     font-size: 45px;
 }
 }
 @media screen and (min-width:690px) and (max-width:990px){
-    .box{
+    .course-program{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
     }
-    .box div{
+    .box{
         width: 50%;
         margin: 0 auto;
 }
@@ -568,18 +539,18 @@ footer{
 .box h3{
     font-size: 20px;
 }
-.section3 h2{
+.course-program h2{
     font-size: 35px;
 }
 }
 @media screen and (min-width: 479px) and (max-width:691px){
-    .box{
+    .course-program{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
     }
-    .box div{
+    .box{
         width: 50%;
         margin: 0 auto;
 }
@@ -593,19 +564,19 @@ footer{
 .box h3{
     font-size: 15px;
 }
-.section3 h2{
+.course-program h2{
     font-size: 35px;
 }
 }
 
 @media screen and (min-width: 320px) and (max-width:480px){
-    .box{
+    .course-program{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
     }
-    .box div{
+    .box{
         width: 50%;
         margin: 0 auto;
 }
@@ -619,35 +590,38 @@ footer{
 .box h3{
     font-size: 10px;
 }
-.section3 h2{
+.course-program h2{
     font-size: 35px;
 }
 }
 
 
-section{
-    width: 90%;
+.format-learn{
+    width: 85%;
     margin: 0 auto;
 }
-
+.format{
+    margin-top: 155px;
+}
 .format-title{
     font-weight: 700;
     font-size: 58px;
     font-family: "Roboto Slab", serif;
     margin-bottom: 100px;
 }
-
+.question{
+    margin: 195px 0;
+}
 .question-title{
     font-weight: 700;
-    font-size: 58px;
+    font-size: 55px;
     font-family: "Roboto Slab", serif;
     margin-bottom: 40px;
-    margin-top: 150px;
 }
 
 .topics{
     display: flex;
-   gap: 110px;
+    gap: 95px;
 }
 .webinar,.access,.communication{
     display: flex;
@@ -656,11 +630,10 @@ section{
 }
 .topics p{
     font-weight:400;
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
+    font-size: 17px;
 }
 .webinar{
-    width: 242.8px;
+    width: 220px;
 }
 .access{
     width: 300px;
@@ -674,7 +647,6 @@ section{
     color: #1E4681;
     font-weight:700;
     font-size: 25px;
-    font-family: "Roboto", sans-serif;
 }
 
 .question-list{
@@ -682,82 +654,175 @@ section{
     margin-left: 25px;
 }
 .question-list li{
-    font-size: 27px;
+    font-size: 23px;
+    margin-bottom: 7px;
     font-weight: 400;
 }
  
 
 @media screen and (min-width:992px) and (max-width:1279px){
+    .question{
+        margin: 145px 0;
+    }
 
-.section h2{
-    font-size: 50px;
+.format-title{
+    font-size: 45px;
     margin-bottom: 80px;
 }
 .topics h4{
-    font-size: 23px;
+    font-size: 21px;
 }
 .topics p{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .webinar{
-    width: 220px;
+    width: 200px;
 }
 .access{
     width: 250px;
 }
 .communication{
-    width: 300px; 
+    width: 280px; 
 }
 .question h2{
     font-size: 45px;
 }
 .question-list li{
-    font-size: 29px;
+    font-size: 20px;
 }
 .question-list{
     width: 50%;
 }
+.question-title{
+    font-size: 45px;
+}
 }
 
-@media screen and (min-width:320px) and (max-width:992px){
-
-    .section h2{
-        font-size: 33px;
-        margin-bottom: 30px;
+@media screen and (min-width:507px) and (max-width:992px){
+    .question{
+        margin: 115px 0;
+    }
+       .format-title{
+        font-size: 45px;
+        margin-bottom: 55px;
     }
     .topics h4{
-        font-size: 30px;
+        font-size: 26px;
     }
     .topics p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .topics{
        flex-direction: column;
        gap: 65px;
     }
     .webinar{
-        width: 500px;
+        width: 400px;
     }
     .access{
         width: 420px;
     }
     .communication{
-        width: 400px; 
+        width: 350px; 
     }
     .question h2{
-        font-size: 35px;
+        font-size: 50px;
     }
     .question-list li{
-        font-size: 28px;
+        font-size: 19px;
     }
     .question-list{
-        width: 90%;
+        width: 75%;
     }
     }
-
+@media (min-width:450px) and (max-width:507px){
+    .question{
+        margin: 95px 0;
+    }
+    .format-title{
+        font-size: 39px;
+        margin-bottom: 45px;
+    }
+    .topics h4{
+        font-size: 23px;
+    }
+    .topics p{
+        font-size: 19px;
+    }
+    .webinar{
+        width: 350px;
+    }
+    .access{
+        width: 300px;
+    }
+    .communication{
+        width: 300px; 
+    }
+    .topics{
+        flex-direction: column;
+        gap: 65px;
+     }
+     .question-title{
+        font-size: 40px;
+    }
+     .question-list li{
+        font-size:19px;
+    }
+    .question-list{
+        width:100%;
+    }
+}
+@media (min-width:320px) and (max-width:450px){
+    .question{
+        margin: 65px 0;
+    }
+    .format-title{
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    .topics h4{
+        font-size: 20px;
+    }
+    .topics p{
+        font-size: 15px;
+    }
+    .webinar{
+        width: 320px;
+    }
+    .access{
+        width: 300px;
+    }
+    .communication{
+        width: 270px; 
+    }
+    .topics{
+        flex-direction: column;
+        gap: 65px;
+     }
+     .question-title{
+        font-size: 38px;
+    }
+     .question-list li{
+        font-size: 15px;
+    }
+    .question-list{
+        width:100%;
+    }
+}
+@media (min-width:507px) and (max-width:750px){
+    .question{
+        margin: 95px 0;
+    }
+    .question-list li{
+        font-size: 20px;
+    }
+    .question-list{
+        width: 95%;
+    }
+}
 header{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 .header-logo{
@@ -989,7 +1054,7 @@ main{
 }
 .about{
     font-family: "Roboto", sans-serif;
-    width: 90%;
+    width: 85%;
     margin:0 auto;
     min-width: 375px;
     margin-top: 30px;
