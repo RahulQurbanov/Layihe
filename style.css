@@ -1,4 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
@@ -21,10 +29,166 @@ body{
 body{
 
 
+
     width: 100%;
     margin: 0;
     padding: 0;
 }
+.card{
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.card-info{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.card-title h2{
+   font-weight: 700;
+   font-size: 3.9vw;
+   font-family: "Roboto Slab", serif;
+}
+
+.card-div{
+    width: 64%;
+    min-width: 308px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-div p{
+    margin: 0 auto;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 95%;
+}
+.card-footer{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 20px;
+}
+.card-profil{
+    width: 190px;
+    height: 169px;
+    margin-left: 25px;
+}
+.card-footer h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+}
+.facebook-img{
+    width: 32px;
+    height: 31px;
+}
+
+@media screen and (min-width:992px) and (max-width:1279px){
+    .card-title h2{
+        font-size:3.9vw;
+     }
+     .card-div p{
+        font-size: 18px;
+     }
+     .card-footer h3{
+        font-size: 21px;
+     }
+     .card-footer{
+        padding-bottom: 40px;
+     }
+     .card-profil{
+        width: 110px;
+        height: 97px;
+     }
+     .facebook-img{
+        width: 18px;
+        height: 17px;
+    }
+}
+ 
+@media screen and (min-width:320px) and (max-width:543px){
+    .card-title h2{
+        font-size: 33px;
+    }
+    .card-title{
+        width: 300px;
+    }
+    .card-footer h3{
+        font-size: 15px;
+     }
+     .card-div p{
+        font-size: 12px;
+     }
+     .card-profil{
+        width: 80px;
+        height: 84px;
+     }
+     .facebook-img{
+        width: 14px;
+        height: 17px;
+     }
+    .card-div{
+        width: 85%;
+    }
+}
+@media screen and (min-width:543px) and (max-width:774px){
+    .card-title h2{
+        font-size: 48px;
+    }
+    .card-footer h3{
+        font-size: 18px;
+     }
+     .card-div p{
+        font-size: 17px;
+     }
+     .card-profil{
+        width: 80px;
+        height: 84px;
+     }
+     .facebook-img{
+        width: 14px;
+        height: 17px;
+     }
+    
+    .card-title{
+        width: 500px;
+    }
+    .card-div{
+        width: 90%;
+    }
+}
+@media screen and (min-width:774px) and (max-width:992px){
+    .card-title h2{
+        font-size: 50px;
+    }
+    .card-footer h3{
+        font-size: 18px;
+     }
+     .card-div p{
+        font-size: 17px;
+     }
+     .card-profil{
+        width: 80px;
+        height: 84px;
+     }
+     .facebook-img{
+        width: 14px;
+        height: 17px;
+     }
+    
+    .card-title{
+        width: 500px;
+    }
+    .card-div{
+        width: 70%;
+    }
+}
+
 
 .section3{
     width: 90%;
@@ -757,6 +921,7 @@ main{
     font-size:25px;
 }   
 }
+
 
 
 
