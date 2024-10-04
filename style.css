@@ -299,6 +299,8 @@ footer{
     margin-top: 40px;
 }
 .card-title h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
    font-weight: 700;
    font-size: 3.9vw;
    font-family: "Roboto Slab", serif;
@@ -318,6 +320,7 @@ footer{
     font-weight: 400;
     font-size: 20px;
     width: 95%;
+    font-family: "Roboto Slab", serif;
 }
 .card-footer{
     margin-top: 30px;
@@ -332,11 +335,13 @@ footer{
     margin-left: 25px;
 }
 .card-footer h3{
+    margin-top: 20px;
     font-size: 30px;
     font-weight: 700;
     font-family: "Roboto Slab", serif;
 }
 .facebook-img{
+    margin-top: 30px;
     width: 32px;
     height: 31px;
 }
@@ -359,6 +364,7 @@ footer{
         height: 97px;
      }
      .facebook-img{
+        margin-top:20px;
         width: 18px;
         height: 17px;
     }
@@ -382,6 +388,7 @@ footer{
         height: 84px;
      }
      .facebook-img{
+        margin-top: 10px;
         width: 14px;
         height: 17px;
      }
@@ -406,6 +413,7 @@ footer{
      .facebook-img{
         width: 14px;
         height: 17px;
+        margin-top: 10px;
      }
     
     .card-title{
@@ -430,6 +438,7 @@ footer{
         height: 84px;
      }
      .facebook-img{
+        margin-top: 10px;
         width: 14px;
         height: 17px;
      }
@@ -438,20 +447,20 @@ footer{
         width: 500px;
     }
     .card-div{
-        width: 70%;
+        width:70%;
     }
 }
 
 
 .course-program{
-    width: 85%; 
-    text-align: start; 
-     margin: 0 auto;
+    width: 85%;
+    text-align: start;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 .course-program h2{
     font-family: "Roboto Slab", serif;
     margin-left: 30px;
-    margin-bottom: 75px;
 }
 .course-boxs{
     display: flex;
@@ -465,16 +474,18 @@ footer{
     justify-content: space-between;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    padding-bottom: 15px;
-    text-align: start;
-    align-items: flex-start;
-    text-align: start;
 }
 .box p{
+    padding-top: 40px;
     padding-left: 18px;
+    font-size:25px;
+    padding-bottom: 15px;
+    font-family: "Roboto", sans-serif;
 }
 .box h3{
-    padding: 10px 0px 20px 18px;
+    padding-top: 10px;
+    padding-left: 18px;
+    font-family: "Roboto", sans-serif;
 }
 @media screen and (min-width: 1279px) {
 .box{
@@ -501,7 +512,7 @@ footer{
     .box{
         width: calc((100% - 60px)/3);
 }
-.course-program{
+.course-boxs{
     gap: 30px;
 }
 .box img{
@@ -523,17 +534,20 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .course-boxs{
         gap: 20px;
     }
     .box{
-        width: 50%;
-        margin: 0 auto;
+        width: 30%;
+        /* margin: 0 auto; */
 }
 .box img{
     width: 100%;
     height: 50%;
 }
 .box p{
+    
     font-size: 15px;
 }
 .box h3{
@@ -548,11 +562,13 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .course-boxs{
         gap: 20px;
     }
     .box{
-        width: 50%;
-        margin: 0 auto;
+        width: 30%;
+        /* margin: 0 auto; */
 }
 .box img{
     width: 100%;
@@ -560,6 +576,7 @@ footer{
 }
 .box p{
     font-size: 12px;
+    padding-top: 20px;
 }
 .box h3{
     font-size: 15px;
@@ -574,6 +591,8 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .course-boxs{
         gap: 20px;
     }
     .box{
@@ -585,13 +604,14 @@ footer{
     height: 60%;
 }
 .box p{
+    padding-top: 10px;
     font-size: 9px;
 }
 .box h3{
     font-size: 10px;
 }
 .course-program h2{
-    font-size: 35px;
+    font-size:35px;
 }
 }
 
@@ -821,6 +841,7 @@ footer{
         width: 95%;
     }
 }
+
 header{
     width: 85%;
     margin: 0 auto;
@@ -839,7 +860,9 @@ margin-top: 22px;
     font-weight: 400;
     font-size: 20px;
    font-family: "Roboto", sans-serif;
-   margin-left:-35px ;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
 }
 
 .icons{
@@ -864,25 +887,28 @@ margin-top: 22px;
 
 #text-1{
     width:420px;
+    margin-top:30px;
 }
 
 .header-article{
     display: flex;
     gap: 100px;
+    margin-bottom: 100px;
 }
 
 .img-director{
     width: 304px;
     height: 356px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .header-text-box{
+   
     width: 480px;
     height: 200px;
     background-color: #1E4681;
     color: white;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .blue-text{
     padding-top: 5px;
@@ -894,6 +920,7 @@ margin-top: 22px;
 .blue-writer-text{
     font-size: 20px;
     padding-left: 280px;
+    padding-top: 15px;
     font-family: "Roboto", sans-serif;
 }
 @media screen and (min-width:992px) and ( max-width:1279px)
@@ -932,7 +959,7 @@ margin-top: 22px;
 .blue-writer-text{
     font-size: 15px; 
     padding-left: 200px;
-   padding-top: 0px;
+   padding-top: 15px;
 }
 }
 
@@ -961,6 +988,7 @@ margin-top: 22px;
     }
     .header-article{
     flex-direction: column;
+    margin-bottom: 50px;
 
     }
     #text-1{
@@ -976,7 +1004,7 @@ margin-top: 22px;
     .img-director{
         width: 141px;
         height: 175px;
-        margin-top: -100px;
+        margin-top: -80px;
     }
     .header-text-box{
         width: 225px;
@@ -1028,7 +1056,7 @@ margin-top: 22px;
     .img-director{
         width: 141px;
         height: 175px;
-        margin-top: -100px;
+        margin-top: -70px;
     }
     .img-director{
         width: 261px;
@@ -1057,7 +1085,7 @@ main{
     width: 85%;
     margin:0 auto;
     min-width: 375px;
-    margin-top: 30px;
+    margin-top: 150px;
 }
 .about-title h2{
     font-size: 55px;
@@ -1067,6 +1095,7 @@ main{
 .about-body{
    display: flex;
    gap: 180px;
+   margin-top: 30px;
 }
 .about-article{
     width: 650px;
@@ -1088,6 +1117,7 @@ main{
 .about-items{
     display: flex;
     gap: 100px;
+    margin-top: 70px;
 }
 .about-item h4{
     font-size: 25px;
@@ -1248,14 +1278,17 @@ main{
     .about-article{
         width:742px;
     }
+
    .about-body{
     flex-direction: column;
     gap: 10px;
    }
+
    .about-items{
     flex-wrap: wrap;
     gap: 150px;
    }
+
 .about-title h2{
     font-size:70px;
 }
@@ -1271,10 +1304,5 @@ main{
 }
 .about-item p{
     font-size:25px;
-}   
 }
-
-
-
-
-
+}
