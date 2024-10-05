@@ -1139,7 +1139,7 @@ main{
 }
 @media screen and (min-width:992px) and (max-width:1279px){
     .about-article{
-        /* width:490px; */
+        width:490px;
     }
     .cameraman-img-1{
         margin-top: 40px;
@@ -1185,7 +1185,7 @@ main{
         margin: 0 auto;
     }
     .about-article{
-        /* width:350px; */
+        width:350px;
     }
    .about-body{
     flex-direction: column;
@@ -1226,7 +1226,7 @@ main{
         margin: 0 auto;
     }
     .about-article{
-        /* width:542px; */
+        width:542px;
     }
    .about-body{
     flex-direction: column;
@@ -1279,7 +1279,7 @@ main{
         margin: 0 auto;
     }
     .about-article{
-        /* width:742px; */
+        width:742px;
     }
 
    .about-body{
