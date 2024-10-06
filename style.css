@@ -4,7 +4,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -335,13 +335,13 @@ footer{
     margin-left: 25px;
 }
 .card-footer h3{
-    margin-top: 20px;
+    margin-top: 35px;
     font-size: 30px;
     font-weight: 700;
     font-family: "Roboto Slab", serif;
 }
 .facebook-img{
-    margin-top: 30px;
+    margin-top: 25px;
     width: 32px;
     height: 31px;
 }
@@ -478,7 +478,7 @@ footer{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .box p{
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 18px;
     font-size:25px;
     padding-bottom: 15px;
@@ -543,7 +543,6 @@ footer{
     }
     .box{
         width: 50%;
-        /* margin: 0 auto; */
 }
 .box img{
     width: 100%;
@@ -557,9 +556,11 @@ footer{
     font-size: 17px;
 }
 .course-program h2{
-    font-size: 35px;
+    font-size: 45px;
 }
 }
+
+
 @media screen and (min-width: 479px) and (max-width:690px){
     .course-boxs{
         flex-direction: column;
@@ -614,8 +615,13 @@ footer{
     font-size: 10px;
 }
 .course-program h2{
-    font-size:35px;
+    font-size:32px;
 }
+}
+@media (min-width:320px) and (max-width:380px){
+    .course-program h2{
+        font-size: 26px;
+    }
 }
 
 
@@ -845,6 +851,7 @@ footer{
     }
 }
 
+
 header{
     width: 85%;
     margin: 0 auto;
@@ -874,9 +881,10 @@ margin-top: 22px;
 }
 
 .header-text{
-    font-size: 80px;
+    font-size: 78px;
     font-family: "Roboto Slab", serif;
     margin-top: -20px;
+    padding-bottom: 15px;
 }
 #header-text{
     width:80%;
@@ -934,7 +942,7 @@ margin-top: 22px;
         width: 450px;
     }
     .header-text{
-        font-size: 66px;
+        font-size: 62px;
     }
     #header-text{
         width:90%;
@@ -966,7 +974,7 @@ margin-top: 22px;
 }
 }
 
-@media screen and (min-width:320px) and ( max-width:450px)
+@media screen and (min-width:320px) and ( max-width:500px)
 {
 
     .nav{
@@ -983,7 +991,7 @@ margin-top: 22px;
     }
     #header-text{
        
-        width: 320px;
+        width: 319px;
 
     }
     .text-1{
@@ -998,8 +1006,6 @@ margin-top: 22px;
         width:272px;
         margin-top: 50px;
     }
-    
-    
     .img-director-content{
         display: flex;
     justify-content: flex-end;
@@ -1023,21 +1029,21 @@ margin-top: 22px;
     }
 }
 
-@media screen and (min-width:450px) and ( max-width:992px)
+@media screen and (min-width:500px) and ( max-width:992px)
 {
 
     .nav{
         font-size: 20px;
-        width: 500px;
+        width: 450px;
    
     }
 
     .header-text{
-        font-size: 75px;
+        font-size: 60px;
     }
     
     #header-text{
-        width: 600px;
+        width: 426px;
        
     }
     .text-1{
@@ -1087,7 +1093,7 @@ main{
     font-family: "Roboto", sans-serif;
     width: 85%;
     margin:0 auto;
-    min-width: 375px;
+    /* min-width: 375px; */
     margin-top: 150px;
 }
 .about-title h2{
@@ -1101,7 +1107,11 @@ main{
    margin-top: 30px;
 }
 .about-article{
-    width: 650px;
+    width: 663px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    line-height: 1.4;
    
 }
  .about-article p{
@@ -1114,17 +1124,18 @@ main{
 }
 .about-footer{
     display: flex;
-    gap: 60px;
+    gap: 123px;
     margin-top: 40px;
 }
 .about-items{
     display: flex;
-    gap: 100px;
+    gap: 79px;
     margin-top: 70px;
 }
 .about-item h4{
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 8px;
 }
 .about-item{
     width:160px;
@@ -1138,6 +1149,9 @@ main{
     height: 203px;
 }
 @media screen and (min-width:992px) and (max-width:1279px){
+    .about-footer{
+        gap: 85px;
+    }
     .about-article{
         width:490px;
     }
@@ -1151,7 +1165,7 @@ main{
         gap: 170px;
     }
     .about-article p{
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .about-title h2{
@@ -1162,13 +1176,17 @@ main{
         height: 187px;
     }
     .about-item h4{
-        font-size: 22px;
+        font-size: 20px;
     }
     .about-item p{
-        font-size: 18px;
+        font-size: 16px;
     }
-
-
+    .about-item{
+        width:135px;
+    }
+    .about-items{
+        gap: 57px;
+    }
 }
 
 
@@ -1185,7 +1203,7 @@ main{
         margin: 0 auto;
     }
     .about-article{
-        width:350px;
+        width:98%;
     }
    .about-body{
     flex-direction: column;
@@ -1203,7 +1221,7 @@ main{
     font-size:30px;
 }
 .about-article p{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .about-item h4{
@@ -1226,7 +1244,7 @@ main{
         margin: 0 auto;
     }
     .about-article{
-        width:542px;
+        width:98%;
     }
    .about-body{
     flex-direction: column;
@@ -1244,15 +1262,27 @@ main{
     font-size:50px;
 }
 .about-article p{
-    font-size: 22px;
+    font-size: 19px;
 }
 
 .about-item h4{
-    font-size: 20px;
+    font-size: 23px;
 }
 .about-item p{
-    font-size:22px;
+    font-size:19px;
 }   
+}
+
+@media (min-width:451px) and (max-width:477px){
+    .about-item{
+        width: 145px;
+    }
+    .about-item p{
+        font-size: 17px;
+    }
+    .about-item h4{
+        font-size: 21px;
+    }
 }
 @media screen and (min-width:320px) and (max-width:401px) {
 
@@ -1266,7 +1296,17 @@ main{
         margin-left: 20px;
     }
 }
-
+@media (min-width:320px) and (max-width:330px){
+    .about-item {
+        width: 100px;
+    }
+    .about-item p{
+        font-size: 12px;
+    }
+    .about-item h4{
+        font-size: 14px;
+    }
+}
 
 @media screen and (min-width:711px) and (max-width:992px) {
     .cameraman-img-2{
@@ -1279,24 +1319,21 @@ main{
         margin: 0 auto;
     }
     .about-article{
-        width:742px;
+        width:95%;
     }
-
    .about-body{
     flex-direction: column;
     gap: 10px;
    }
-
    .about-items{
     flex-wrap: wrap;
     gap: 150px;
    }
-
 .about-title h2{
     font-size:70px;
 }
 .about-article p{
-    font-size: 30px;
+    font-size: 26px;
 }
 .about-item{
     width:200px;
