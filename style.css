@@ -954,7 +954,10 @@ margin-top: 22px;
 }
 @media screen and (min-width:992px) and ( max-width:1279px)
 {
-
+    .header-logo{
+        width: 64px;
+        height: 38px;
+        }
     .nav{
         font-size: 18px;
         width: 420px;
@@ -998,9 +1001,11 @@ margin-top: 22px;
     .nav{
         font-size: 13px;
         width: 280px;
-       
-   
     }
+    .header-logo{
+        width: 58px;
+        height: 35px;
+        }
     .icons{
         width: 15px;
         height: 15px;
@@ -1050,6 +1055,10 @@ margin-top: 22px;
 
 @media screen and (min-width:500px) and ( max-width:992px)
 {
+    .header-logo{
+        width: 58px;
+        height: 35px;
+        }
 
     .nav{
         font-size: 20px;
