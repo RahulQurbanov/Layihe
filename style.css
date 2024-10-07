@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 *{
@@ -9,8 +8,7 @@
 body{
     font-family: "Roboto", sans-serif;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    overflow-x: hidden;
 }
 .info{
     width: 85%;
@@ -55,6 +53,7 @@ body{
 footer{
     background-color: black;
     color: white;
+    min-width: 350px;
 }
 .footer-info{
     width: 85%;
@@ -228,7 +227,7 @@ footer{
         gap: 27px; 
     }
     .info-head h2{
-        font-size: 2.7rem; 
+        font-size: 3rem; 
     }
     .info-main p{
         font-size: 1.1rem; 
@@ -309,7 +308,7 @@ footer{
 }
 
 .card-div{
-    width: 65%;
+    width: 67%;
     min-width: 308px;
     background-color: white;
     border-radius: 30px;
@@ -489,7 +488,6 @@ footer{
     padding-top: 10px;
     padding-left: 18px;
     font-family: "Roboto", sans-serif;
-    /* height: 65px; */
 }
 @media screen and (min-width: 1279px) {
 .box{
@@ -507,7 +505,7 @@ footer{
 }
 .box h3{
     font-size: 25px;
-    height: 65px;
+    height: 68px;
 }
 .course-program h2{
     font-size: 55px;
@@ -552,10 +550,10 @@ footer{
     height: 50%;
 }
 .box p{
-    font-size: 13px;
+    font-size: 14px;
 }
 .box h3{
-    font-size: 17px;
+    font-size: 18px;
     height: 45px;
 }
 .course-program h2{
@@ -584,7 +582,7 @@ footer{
     font-size: 12px;
 }
 .box h3{
-    font-size: 15px;
+    font-size: 14px;
     height: 43px;
 }
 .course-program h2{
@@ -607,6 +605,7 @@ footer{
     .box{
         width: 50%;
         margin: 0 auto;
+        border-radius: 17px;
 }
 .box img{
     width: 100%;
@@ -787,19 +786,19 @@ footer{
         margin-bottom: 45px;
     }
     .topics h4{
-        font-size: 23px;
+        font-size: 20px;
     }
     .topics p{
-        font-size: 19px;
+        font-size: 15px;
     }
     .webinar{
-        width: 350px;
+        width: 332px;
     }
     .access{
-        width: 300px;
+        width: 255px;
     }
     .communication{
-        width: 300px; 
+        width: 296px; 
     }
     .topics{
         flex-direction: column;
@@ -809,10 +808,10 @@ footer{
         font-size: 40px;
     }
      .question-list li{
-        font-size:19px;
+        font-size:15px;
     }
     .question-list{
-        width:100%;
+        width:94%;
     }
 }
 @media (min-width:320px) and (max-width:450px){
@@ -830,16 +829,16 @@ footer{
         font-size: 20px;
     }
     .topics p{
-        font-size: 15px;
+        font-size: 13px;
     }
     .webinar{
-        width: 320px;
+        width: 287px;
     }
     .access{
-        width: 300px;
+        width: 219px;
     }
     .communication{
-        width: 270px; 
+        width: 258px; 
     }
     .topics{
         flex-direction: column;
@@ -849,7 +848,7 @@ footer{
         font-size: 38px;
     }
      .question-list li{
-        font-size: 15px;
+        font-size: 14px;
     }
     .question-list{
         width:100%;
@@ -876,8 +875,8 @@ header{
     margin: 0 auto;
 }
 .header-logo{
-width: 64px;
-height: 38px;
+width: 98px;
+height: 63px;
 margin-top: 22px;
 }
 
@@ -885,7 +884,7 @@ margin-top: 22px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 70%;  
+    width: 520px;  
     font-weight: 400;
     font-size: 20px;
    font-family: "Roboto", sans-serif;
@@ -906,7 +905,7 @@ margin-top: 22px;
     padding-bottom: 15px;
 }
 #header-text{
-    width:80%;
+    width:83%;
 }
 .text-1{
     margin-top: -30px;
@@ -958,13 +957,13 @@ margin-top: 22px;
 
     .nav{
         font-size: 18px;
-        width: 450px;
+        width: 420px;
     }
     .header-text{
         font-size: 62px;
     }
     #header-text{
-        width:90%;
+        width:560px;
     }
     .text-1{
         font-size: 18px;
@@ -997,13 +996,14 @@ margin-top: 22px;
 {
 
     .nav{
-        font-size: 10px;
-        width: 300px;
+        font-size: 13px;
+        width: 280px;
+       
    
     }
     .icons{
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
     }
     .header-text{
         font-size: 43px;
@@ -1053,16 +1053,16 @@ margin-top: 22px;
 
     .nav{
         font-size: 20px;
-        width: 450px;
+        width: 420px;
    
     }
 
     .header-text{
-        font-size: 60px;
+        font-size: 63px;
     }
     
     #header-text{
-        width: 426px;
+        width: 456px;
        
     }
     .text-1{
@@ -1112,7 +1112,6 @@ main{
     font-family: "Roboto", sans-serif;
     width: 85%;
     margin:0 auto;
-    /* min-width: 375px; */
     margin-top: 150px;
 }
 .about-title h2{
@@ -1176,7 +1175,6 @@ main{
     }
     .cameraman-img-1{
         margin-top: 40px;
-        /* margin-left: 120px; */
         width: 241px;
         height: 242px;
     }
@@ -1215,7 +1213,9 @@ main{
     .cameraman-img-2{
         display: none;
     }
-
+    .about{
+        margin-top: 85px;
+    }
     .cameraman-img-1{
         width: 180px;
         height: 170px;
@@ -1304,7 +1304,6 @@ main{
     }
 }
 @media screen and (min-width:320px) and (max-width:401px) {
-
     .about-items{
         margin-left: 20px;
     }
@@ -1325,13 +1324,14 @@ main{
     .about-item h4{
         font-size: 14px;
     }
+    
+    
 }
 
 @media screen and (min-width:711px) and (max-width:992px) {
     .cameraman-img-2{
         display: none;
     }
-
     .cameraman-img-1{
         width: 330px;
         height: 270px;
@@ -1346,13 +1346,12 @@ main{
    }
    .about-items{
     flex-wrap: wrap;
-    gap: 150px;
    }
 .about-title h2{
     font-size:70px;
 }
 .about-article p{
-    font-size: 26px;
+    font-size: 24px;
 }
 .about-item{
     width:200px;
